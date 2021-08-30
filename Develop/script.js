@@ -1,6 +1,8 @@
 // Assignment code here
-
-
+var passwordLength = window.prompt("Choose a password length of at least 8 characters and no more than 128 characters");
+console.log(passwordLength);
+var passwordCharacters = window.prompt("What would you like to include: lowercase, uppercase, numeric, and/or special characters?");
+console.log(passwordCharacters);
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
